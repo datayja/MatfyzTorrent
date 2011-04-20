@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71FB876135F82FB00A6A62D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71FB875135F82FB00A6A62D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A71FB86F135F82FB00A6A62D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A71FB871135F82FB00A6A62D /* DU4_TORRENT_TRACKER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DU4_TORRENT_TRACKER; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71FB875135F82FB00A6A62D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A71FB877135F82FB00A6A62D /* DU4_TORRENT_TRACKER.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DU4_TORRENT_TRACKER.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71FB86E135F82FB00A6A62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71FB866135F82FB00A6A62D = {
+			isa = PBXGroup;
+			children = (
+				A71FB874135F82FB00A6A62D /* DU4_TORRENT_TRACKER */,
+				A71FB872135F82FB00A6A62D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71FB872135F82FB00A6A62D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71FB871135F82FB00A6A62D /* DU4_TORRENT_TRACKER */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71FB874135F82FB00A6A62D /* DU4_TORRENT_TRACKER */ = {
+			isa = PBXGroup;
+			children = (
+				A71FB875135F82FB00A6A62D /* main.cpp */,
+				A71FB877135F82FB00A6A62D /* DU4_TORRENT_TRACKER.1 */,
+			);
+			path = DU4_TORRENT_TRACKER;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71FB870135F82FB00A6A62D /* DU4_TORRENT_TRACKER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71FB87A135F82FB00A6A62D /* Build configuration list for PBXNativeTarget "DU4_TORRENT_TRACKER" */;
+			buildPhases = (
+				A71FB86D135F82FB00A6A62D /* Sources */,
+				A71FB86E135F82FB00A6A62D /* Frameworks */,
+				A71FB86F135F82FB00A6A62D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DU4_TORRENT_TRACKER;
+			productName = DU4_TORRENT_TRACKER;
+			productReference = A71FB871135F82FB00A6A62D /* DU4_TORRENT_TRACKER */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71FB868135F82FB00A6A62D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MFF UK";
+			};
+			buildConfigurationList = A71FB86B135F82FB00A6A62D /* Build configuration list for PBXProject "DU4_TORRENT_TRACKER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A71FB866135F82FB00A6A62D;
+			productRefGroup = A71FB872135F82FB00A6A62D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71FB870135F82FB00A6A62D /* DU4_TORRENT_TRACKER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71FB86D135F82FB00A6A62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71FB876135F82FB00A6A62D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A71FB878135F82FB00A6A62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A71FB879135F82FB00A6A62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A71FB87B135F82FB00A6A62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A71FB87C135F82FB00A6A62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71FB86B135F82FB00A6A62D /* Build configuration list for PBXProject "DU4_TORRENT_TRACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71FB878135F82FB00A6A62D /* Debug */,
+				A71FB879135F82FB00A6A62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71FB87A135F82FB00A6A62D /* Build configuration list for PBXNativeTarget "DU4_TORRENT_TRACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71FB87B135F82FB00A6A62D /* Debug */,
+				A71FB87C135F82FB00A6A62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71FB868135F82FB00A6A62D /* Project object */;
+}
