@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A71FB876135F82FB00A6A62D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71FB875135F82FB00A6A62D /* main.cpp */; };
+		A71FB876135F82FB00A6A62D /* du4_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71FB875135F82FB00A6A62D /* du4_main.cpp */; };
+		A7D5E38C1369DCD6004A9032 /* du4_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = A7D5E3891369DCD6004A9032 /* du4_sqlite3.c */; };
+		A7D5E3911369DD25004A9032 /* du4_matfyz_torrent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7D5E38F1369DD25004A9032 /* du4_matfyz_torrent.cpp */; };
+		A7D5E39C136AF6E4004A9032 /* du4_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7D5E39A136AF6E4004A9032 /* du4_thread.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +27,15 @@
 
 /* Begin PBXFileReference section */
 		A71FB871135F82FB00A6A62D /* DU4_TORRENT_TRACKER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DU4_TORRENT_TRACKER; sourceTree = BUILT_PRODUCTS_DIR; };
-		A71FB875135F82FB00A6A62D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A71FB875135F82FB00A6A62D /* du4_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = du4_main.cpp; sourceTree = "<group>"; };
 		A71FB877135F82FB00A6A62D /* DU4_TORRENT_TRACKER.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DU4_TORRENT_TRACKER.1; sourceTree = "<group>"; };
+		A7D5E3891369DCD6004A9032 /* du4_sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = du4_sqlite3.c; sourceTree = "<group>"; };
+		A7D5E38A1369DCD6004A9032 /* du4_sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = du4_sqlite3.h; sourceTree = "<group>"; };
+		A7D5E38B1369DCD6004A9032 /* du4_sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = du4_sqlite3ext.h; sourceTree = "<group>"; };
+		A7D5E38F1369DD25004A9032 /* du4_matfyz_torrent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = du4_matfyz_torrent.cpp; sourceTree = "<group>"; };
+		A7D5E3901369DD25004A9032 /* du4_matfyz_torrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = du4_matfyz_torrent.h; sourceTree = "<group>"; };
+		A7D5E39A136AF6E4004A9032 /* du4_thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = du4_thread.cpp; sourceTree = "<group>"; };
+		A7D5E39B136AF6E4004A9032 /* du4_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = du4_thread.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,15 @@
 		A71FB874135F82FB00A6A62D /* DU4_TORRENT_TRACKER */ = {
 			isa = PBXGroup;
 			children = (
-				A71FB875135F82FB00A6A62D /* main.cpp */,
+				A71FB875135F82FB00A6A62D /* du4_main.cpp */,
+				A7D5E3891369DCD6004A9032 /* du4_sqlite3.c */,
+				A7D5E38A1369DCD6004A9032 /* du4_sqlite3.h */,
+				A7D5E38B1369DCD6004A9032 /* du4_sqlite3ext.h */,
 				A71FB877135F82FB00A6A62D /* DU4_TORRENT_TRACKER.1 */,
+				A7D5E38F1369DD25004A9032 /* du4_matfyz_torrent.cpp */,
+				A7D5E3901369DD25004A9032 /* du4_matfyz_torrent.h */,
+				A7D5E39A136AF6E4004A9032 /* du4_thread.cpp */,
+				A7D5E39B136AF6E4004A9032 /* du4_thread.h */,
 			);
 			path = DU4_TORRENT_TRACKER;
 			sourceTree = "<group>";
@@ -114,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71FB876135F82FB00A6A62D /* main.cpp in Sources */,
+				A71FB876135F82FB00A6A62D /* du4_main.cpp in Sources */,
+				A7D5E38C1369DCD6004A9032 /* du4_sqlite3.c in Sources */,
+				A7D5E3911369DD25004A9032 /* du4_matfyz_torrent.cpp in Sources */,
+				A7D5E39C136AF6E4004A9032 /* du4_thread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +214,7 @@
 				A71FB87C135F82FB00A6A62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
