@@ -8,3 +8,9 @@
 
 #include "du4_sqlite3.h"
 #include "du4_thread.h"
+
+class MatfyzTorrent {
+public:
+	MatfyzTorrent();
+	~MatfyzTorrent();
+};

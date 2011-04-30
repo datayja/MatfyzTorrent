@@ -3793,7 +3793,7 @@
 		<string>IDEWorkspaceTabControllerDesignAreaSplitView</string>
 		<string>IDEShowUtilities</string>
 		<string>IDEEditorArea</string>
-		<string>du4_main.cpp</string>
+		<string>du4_thread.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4061,7 +4061,7 @@
 		</dict>
 		<string>DU4_TORRENT_TRACKER</string>
 		<string>DU4_TORRENT_TRACKER</string>
-		<string>du4_main.cpp</string>
+		<string>du4_thread.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5475,7 +5475,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>31</integer>
+					<integer>106</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -6111,7 +6111,7 @@
 				<integer>96</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_main.cpp</string>
+			<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_thread.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -6162,10 +6162,10 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>325868086.573699</real>
-		<string>{222, 539}</string>
-		<string>{745, 0}</string>
-		<string>main (int argc, const char * argv[])</string>
+		<real>325889508.230694</real>
+		<string>{584, 951}</string>
+		<string>{1237, 0}</string>
+		<string>Thread::entry(void *args)</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -6184,7 +6184,7 @@
 				<integer>481</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_main.cpp</string>
+		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_thread.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6199,7 +6199,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1020, 419}}</string>
+		<string>{{0, 0}, {1020, 662}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -9506,27 +9506,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>762</integer>
+					<integer>763</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>764</integer>
+					<integer>765</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>766</integer>
+					<integer>767</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>768</integer>
+					<integer>769</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>770</integer>
+					<integer>771</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>772</integer>
+					<integer>773</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -9853,8 +9853,17 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>469</integer>
+				<integer>762</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>96</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_main.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -9870,7 +9879,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>763</integer>
+				<integer>764</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9896,7 +9905,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>765</integer>
+				<integer>766</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9922,7 +9931,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>767</integer>
+				<integer>768</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9948,7 +9957,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>769</integer>
+				<integer>770</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -9974,7 +9983,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>771</integer>
+				<integer>772</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -10000,17 +10009,8 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>773</integer>
+				<integer>469</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>96</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_thread.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -10178,9 +10178,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>325802147.65188199</real>
-		<string>{0, 193}</string>
-		<string>{193, 0}</string>
+		<real>325889503.20043701</real>
+		<string>{0, 265}</string>
+		<string>{265, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10513,9 +10513,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>325868086.57313502</real>
-		<string>{222, 539}</string>
-		<string>{745, 0}</string>
+		<real>325869055.18725199</real>
+		<string>{0, 500}</string>
+		<string>{609, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10798,8 +10798,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>325865571.555296</real>
-		<string>{777, 626}</string>
+		<real>325889508.22953701</real>
+		<string>{584, 951}</string>
 		<string>{1237, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -10846,9 +10846,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>325865575.56769902</real>
-		<string>{133, 826}</string>
-		<string>{682, 0}</string>
+		<real>325889504.33441502</real>
+		<string>{0, 1009}</string>
+		<string>{291, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -11296,7 +11296,7 @@
 				<integer>881</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_main.cpp</string>
+		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_thread.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -11332,7 +11332,7 @@
 				<integer>885</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_thread.cpp</string>
+		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_matfyz_torrent.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -11350,7 +11350,7 @@
 				<integer>887</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h</string>
+		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_main.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -11368,7 +11368,7 @@
 				<integer>889</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h</string>
+		<string>file://localhost/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/_types.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -11386,7 +11386,7 @@
 				<integer>891</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/thepablick/Documents/MFF/Pokroc%CC%8Cile%CC%81%20programova%CC%81ni%CC%81%20v%20C++/DU4_TORRENT_TRACKER/DU4_TORRENT_TRACKER/du4_matfyz_torrent.h</string>
+		<string>file://localhost/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
