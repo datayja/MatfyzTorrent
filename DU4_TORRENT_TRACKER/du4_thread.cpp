@@ -39,6 +39,9 @@ Thread::wait() {
 void
 Thread::cancel() {
 	if (running) {
+		// give the thread a chance to cancel it's children
+		this->threadWillBeCancelled();
+		
 		pthread_cancel(this->thread_id);
 		this->running = false;
 	}

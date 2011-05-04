@@ -27,6 +27,8 @@ protected:
 	static void *entry(void *args); // helper static method, run first
 	int run(void *args); // helper method runs virtual method
 	virtual int execute(void *args) = 0; // main method, override
+	
+	virtual void threadWillBeCancelled(void) = 0; // a message that all children threads should be cancelled as well
 };
 
 // dumb class to bridge real arguments for the threaded function and the thread pointer
